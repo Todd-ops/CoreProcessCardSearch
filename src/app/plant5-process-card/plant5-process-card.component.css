@@ -1,0 +1,9 @@
+.container-flex{
+  margin-bottom: 50px;
+  border-style: double;
+  border-color: black;
+  border-width: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 99%;
+}
