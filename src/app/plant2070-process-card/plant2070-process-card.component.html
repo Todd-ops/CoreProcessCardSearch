@@ -4,7 +4,7 @@
   <form [formGroup]="searchForm">
     <div class="row">
       <div class="col">
-        <select formControlName="Job" class="form-select col-6" >
+        <select formControlName="Job" class="form-select col-6" style="height: 30px;" >
           <option [ngValue]="null" disabled>Job Number</option>
           <option *ngFor="let item of Job" [ngValue]="item.name"  >
             {{item.name}}

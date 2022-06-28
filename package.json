@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:dev": "ng builld --watch --deploy-url /CoreProcessCards/ --base-href /CoreProcessCards/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
